@@ -1,0 +1,2607 @@
+@charset "utf-8";
+
+body {
+	background-color: #ededed;
+	color: #666;
+	font: 12px/1.5 tahoma,arial,Hiragino Sans GB,宋体b8b\4f53;
+	text-align: center;
+	padding: 0;
+	margin: 0
+}
+
+a img {
+	border: 0
+}
+
+.clear {
+	clear: both;
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	height: 0
+}
+
+img {
+	border: 0;
+	vertical-align: top;
+	max-width: none
+}
+
+ol,ul {
+	list-style: none
+}
+
+caption,th {
+	text-align: left
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	vertical-align: top;
+	*vertical-align: middle
+}
+
+a:hover {
+	text-decoration: none;
+	cursor: pointer
+}
+
+ul,li {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+dl,dt,dd {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+input {
+	outline: 0;
+	vertical-align: top;
+	width: auto
+}
+
+input[disabled] {
+	cursor: default
+}
+
+*html input {
+	overflow: hidden
+}
+
+.bold {
+	font-size: 14px;
+	font-weight: bold;
+	color: #666
+}
+
+.ui-tabcenter {
+	text-align: center;
+	margin-top: 20px
+}
+
+select {
+	width: auto;
+	*height: auto
+}
+
+#divBody {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #fff
+}
+
+#Inside-main {
+	width: 100%;
+	position: relative;
+	height: 100%;
+	min-width: 980px
+}
+
+#Inside-main .content {
+	width: 980px;
+	margin: 0 auto;
+	height: 100%;
+	display: inline-block
+}
+
+.inside-main {
+	width: 1000px;
+	margin: 0 auto 35px auto;
+	display: inline-block;
+	background-color: #f0f6f6
+}
+
+.ui-my-left {
+	width: 180px;
+	display: inline-block;
+	float: left;
+	left: 1px;
+	position: relative;
+	z-index: 2
+}
+
+.ui-my-right {
+	width: 780px;
+	padding-left: 20px;
+	text-align: left;
+	display: inline-block;
+	border: 1px solid #c2ccde;
+	margin-left: -1px;
+	padding-right: 18px;
+	*padding-right: 8px;
+	*+padding-right: 18px;
+	min-height: 550px;
+	!important _height: 550px;
+	padding-bottom: 35px;
+	background-color: #fff;
+	float: right
+}
+
+input[readonly] {
+	cursor: default
+}
+
+select[disabled] {
+	cursor: default
+}
+
+input[type="checkbox"][disabled] {
+	cursor: default;
+	opacity: .4;
+	filter: alpha(opacity=40)
+}
+
+.topbar {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	border-bottom: 1px solid #eee;
+	position: relative;
+	z-index: 100
+}
+
+.ui-topbarmain {
+	width: 1000px;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	height: 30px;
+	z-index: 99
+}
+
+.ui-topbarmain .ui-topleftlink {
+	position: absolute;
+	float: left;
+	left: 0
+}
+
+.ui-topbarmain .ui-topleftlink a {
+	color: #666;
+	margin-right: 12px
+}
+
+.ui-topbarmain .ui-topleftlink a:hover {
+	color: #666;
+	text-decoration: underline
+}
+
+.ui-topbarmain font {
+	color: #eee;
+	margin-right: 12px;
+	font-size: 12px
+}
+
+.ui-topbarmain .ui-toprightinfo {
+	position: absolute;
+	float: right;
+	right: 0
+}
+
+.ui-topbarmain .ui-toprightinfo li {
+	float: left
+}
+
+.ui-topbarmain .ui-toprightinfo a {
+	color: #666;
+	margin-right: 12px;
+	position: relative;
+	top: 2px
+}
+
+.ui-topbarmain .ui-toprightinfo .ui-txt-a {
+	margin-right: 12px;
+	color: #2597dc
+}
+
+.ui-topbarmain .ui-toprightinfo .ui-txt-a:hover {
+	color: #2597dc;
+	text-decoration: underline
+}
+
+.ui-topbarmain .ui-toprightinfo a:hover {
+	color: #666;
+	text-decoration: underline
+}
+
+.ui-topbarmain .ui-toprightinfo span {
+	margin-right: 15px;
+	position: relative;
+	top: 2px
+}
+
+.ui-topbarmain .ui-toprightinfo .ui-helpselect {
+	position: relative;
+	display: inline-block;
+	padding-right: 25px;
+	top: 2px;
+	z-index: 9;
+	cursor: pointer;
+	*display: inline;
+	zoom: 1
+}
+
+.ui-topbarmain .ui-toprightinfo .ui-helpselect i {
+	position: absolute;
+	float: right;
+	right: 11px;
+	background: url(/assets/bestpay/inside-main/indexicon.png) no-repeat;
+	background-position: -846px 0;
+	width: 10px;
+	height: 6px;
+	top: 12px
+}
+
+*html .ui-topbarmain .ui-toprightinfo .ui-helpselect i {
+	font-size: 6px
+}
+
+.ui-topbarmain .ui-toprightinfo .ui-helpselect .i-hover {
+	background-position: -861px 0;
+	background-repeat: no-repeat;
+	width: 10px;
+	height: 6px
+}
+
+*html .ui-topbarmain .ui-toprightinfo .ui-helpselect .i-hover {
+	font-size: 6px
+}
+
+.ui-topbarmain .ui-toprightinfo .ui-helpselect:hover {
+	text-decoration: none;
+	color: #666
+}
+
+.ui-topbarmain .ui-toprightinfo .ui-helpselect .ui-topbar-selectdiv {
+	position: absolute;
+	width: 95px;
+	border: 1px solid #CCC;
+	line-height: 25px;
+	top: 2px;
+	left: -18px;
+	padding-top: 30px;
+	z-index: -1;
+	background-color: #FFF;
+	padding-bottom: 10px;
+	display: none
+}
+
+.ui-topbarmain .ui-toprightinfo .ui-helpselect .ui-topbar-selectdiv li {
+	width: 100%;
+	float: left;
+	text-align: left
+}
+
+.ui-topbarmain .ui-toprightinfo .ui-helpselect .ui-topbar-selectdiv li a {
+	margin-left: 15px;
+	line-height: 21px
+}
+
+.ui-txt-a {
+	color: #2597dc;
+	font-size: 12px;
+	font-family: "宋体"
+}
+
+a.ui-txt-a {
+	vertical-align: top
+}
+
+.ui-txt-a:hover {
+	text-decoration: underline;
+	color: #2597dc
+}
+
+.ui-txtbig {
+	font-size: 28px;
+	font-weight: bold
+}
+
+.ui-text-orange {
+	color: #f77700;
+	margin-left: 5px;
+	margin-right: 5px
+}
+
+.ui-text-Green {
+	color: #13af0c;
+	margin-left: 5px;
+	margin-right: 5px
+}
+
+.ui-txt-Gray {
+	color: #ddd;
+	margin-left: 5px;
+	margin-right: 5px
+}
+
+.ui-sepdased-line {
+	width: 100%;
+	height: 20px;
+	display: inline-block;
+	border-bottom: 1px dashed #999;
+	margin-bottom: 20px
+}
+
+.ui-f28 {
+	font-size: 28px;
+	font-weight: bold
+}
+
+.ui-inside-tab01 .ui-instab-th td {
+	background-color: #f3f2f2;
+	line-height: 35px;
+	height: 35px;
+	padding-left: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 10px
+}
+
+.ui-inside-tab01 .ui-instab-tm td {
+	background-color: #f3f2f2;
+	line-height: 35px;
+	height: 35px;
+	font-size: 12px;
+	font-weight: bold
+}
+
+.ui-inside-tab01 .ui-tabView {
+	font-weight: none
+}
+
+.ui-inside-tab01 tr td {
+	border-bottom: 1px solid #eee;
+	line-height: 25px;
+	padding-bottom: 5px;
+	padding-top: 5px
+}
+
+.inside-main .ui-rightdiv {
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	*width: 99%
+}
+
+.ui-news {
+	display: inline-block;
+	float: left;
+	border: 1px solid #f3f2f2;
+	width: 100%
+}
+
+.ui-news .ui-news-title {
+	width: 100%;
+	line-height: 40px;
+	height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #f3f2f2
+}
+
+.ui-news .ui-news-title span {
+	position: relative;
+	left: 20px
+}
+
+.ui-news li {
+	margin-bottom: 10px
+}
+
+.ui-news .ui-newsdimg {
+	width: 15px;
+	height: 15px;
+	background-image: url(/assets/bestpay/inside-main/my-dian01.jpg);
+	position: relative;
+	float: left;
+	margin-right: 5px;
+	margin-left: 10px
+}
+
+.ui-news a {
+	color: #666
+}
+
+.ui-news a:hover {
+	color: #333
+}
+
+.ui-Advertisingdiv {
+	width: 100%;
+	display: inline-block;
+	margin-top: 20px
+}
+
+input.ui-txtinput01 {
+	border: 1px solid #CCC;
+	padding: 5px 10px;
+	line-height: 14px;
+	width: 160px;
+	color: #666;
+	box-shadow: 2px 2px 2px #eee inset;
+	padding: 8px 10px 2px 10px\0;
+	margin-bottom: 0
+}
+
+*html input.ui-txtinput01 {
+	line-height: 17px;
+	height: 19px;
+	margin-top: 0
+}
+
+*+html input.ui-txtinput01 {
+	padding: 8px 10px 2px 10px
+}
+
+.ui-textarea {
+	width: 422px;
+	height: 79px;
+	line-height: 15px;
+	border: 1px #9c9c9c solid;
+	padding: 1px 3px 0 4px;
+	_padding: 1px 2px 0 5px;
+	overflow: auto;
+	font-family: Arial;
+	-webkit-appearance: textarea;
+	background-color: white;
+	border: 1px solid #CCC;
+	-webkit-user-select: text;
+	-webkit-flex-direction: column;
+	resize: auto;
+	cursor: auto;
+	padding: 2px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	color: #666;
+	padding: 10px
+}
+
+.ui-lifepay-select01 {
+	width: auto
+}
+
+input[type="file"] {
+	overflow: hidden;
+	width: 75px;
+	margin-top: 0;
+	padding-left: 0;
+	height: 25px;
+	line-height: 25px;
+	*border: solid 0 #fff
+}
+
+.ui-Promptdiv {
+	width: 100%;
+	*width: 99%;
+	min-height: 36px;
+	!important _height: 36px;
+	padding: 16px 0;
+	display: inline-block;
+	border: 1px solid;
+	box-shadow: 1px 3px 1px 0 #ddd;
+	filter: progid:DXImageTransform.Microsoft.DropShadow(OffX='2',OffY='2',Color='#dddddd',Positive='true');
+	zoom: 1;
+	position: relative;
+	font-size: 14px
+}
+
+.ui-Promptdiv i {
+	position: absolute;
+	left: 16px;
+	top: 16px;
+	background-image: url(/assets/bestpay/inside-main/allicon.png);
+	height: 32px;
+	width: 32px;
+	background-repeat: no-repeat
+}
+
+.ui-Promptdiv .ui-Promptdivtab {
+	width: 90%;
+	color: #666;
+	margin: 0 auto;
+	padding-top: 10px;
+	display: block;
+	clear: both;
+	*clear: none
+}
+
+.ui-Promptdiv span {
+	display: block;
+	float: left;
+	margin-left: 64px;
+	text-align: left;
+	width: 90%;
+	*display: inline;
+	zoom: 1
+}
+
+.ui-Promptdiv .ui-txt02 {
+	line-height: 36px
+}
+
+div.ui-Error {
+	border-color: #e58d8f;
+	background-color: #fee7e7;
+	color: #c30
+}
+
+div.ui-Error i {
+	background-position: 0 -376px
+}
+
+div.ui-Warning {
+	border-color: #d6c16f;
+	background-color: #fefce8;
+	color: #b08828
+}
+
+div.ui-Warning i {
+	background-position: 0 -312px
+}
+
+div.ui-Correct {
+	border-color: #a0c87a;
+	background-color: #f4ffe7;
+	color: #58852f
+}
+
+div.ui-Correct i {
+	background-position: 0 -344px
+}
+
+div.ui-Note {
+	border-color: #a8cbe8;
+	background-color: #e8f6fe;
+	color: #4f6295
+}
+
+div.ui-Note i {
+	background-position: 0 -408px
+}
+
+.ui-Nextpagestyle {
+	display: inline-block;
+	border-radius: 4px;
+	*display: inline;
+	zoom: 1
+}
+
+.ui-Nextpagestyle li {
+	border-right: 1px solid #CCC;
+	padding: 0 15px;
+	float: left;
+	border: 1px solid #CCC;
+	border-right: 0;
+	cursor: pointer;
+	color: #2c9ad6;
+	height: 30px;
+	line-height: 30px
+}
+
+.ui-Nextpagestyle li:hover {
+	background-color: #f4f4f4
+}
+
+.ui-Nextpagestyle .selnone {
+	cursor: default;
+	color: #ccc
+}
+
+.ui-Nextpagestyle .selnone:hover {
+	cursor: default;
+	color: #ccc;
+	background-color: #fff
+}
+
+.ui-Nextpagestyle .lastli {
+	border-right: 1px solid #CCC
+}
+
+.ui-Nextpagestyle .selli {
+	background-color: #f4a22d;
+	color: #fff;
+	border-color: #f4a22d
+}
+
+.ui-Nextpagestyle .selli:hover {
+	background-color: #f4a22d
+}
+
+.tan_bei {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	background-color: #000;
+	filter: alpha(opacity=20);
+	opacity: .2;
+	-moz-opacity: .2;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	text-align: center;
+	_position: absolute;
+	_width: expression(documentElement.clientWidth);
+	_height: expression(document.body.scrollHeight);
+	text-align: center;
+	min-width: 1000px
+}
+
+.ui-show-main {
+	min-height: 200px;
+	!important _height: 200px;
+	display: block;
+	z-index: 10000;
+	background-color: #FFF;
+	margin: 0 auto;
+	border: 4px solid #aaa;
+	position: relative;
+	margin: 0 auto;
+	position: fixed;
+	_POSITION: absolute;
+	_top: expression(eval(document.documentElement.scrollTop+60));
+	left: 50%;
+	float: left;
+	display: inline;
+	top: 5%;
+	width: 750px;
+	margin-left: -375px
+}
+
+.ui-show-title {
+	width: 100%;
+	line-height: 35px;
+	background-repeat: repeat-y;
+	border-bottom: 1px solid #CCC;
+	text-align: left;
+	display: block;
+	height: 35px;
+	color: #FFF;
+	background-color: #ee9017;
+	display: block
+}
+
+.ui-show-title span {
+	position: relative;
+	left: 25px;
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+	color: #fff
+}
+
+a.close {
+	position: relative;
+	float: right;
+	display: inline-block;
+	right: 20px;
+	top: 2px;
+	font-size: 18px;
+	display: block;
+	line-height: 24px;
+	color: #fff;
+	font-size: 20px;
+	opacity: 1;
+	text-shadow: none;
+	filter: none;
+	font-weight: 100
+}
+
+a.close:hover {
+	color: #fff;
+	font-size: 20px;
+	opacity: 1;
+	text-shadow: none;
+	filter: none;
+	font-weight: 100
+}
+
+.ui-showdiv {
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 55px;
+	margin-top: 15px;
+	text-align: center
+}
+
+*html .ui-showdiv #selectImg {
+	width: 705px;
+	margin: 0 auto
+}
+
+.ui-my-info {
+	float: left;
+	line-height: 45px;
+	height: 45px;
+	color: #CCC;
+	display: block;
+	width: 100%
+}
+
+.ui-my-info span {
+	float: left
+}
+
+.ui-my-info .ui-myinfo-time {
+	float: right
+}
+
+.ui-showdiv-close {
+	width: 100%;
+	height: 45px;
+	display: block;
+	background-color: #eaeaea;
+	text-align: right;
+	position: absolute;
+	*position: static;
+	float: left;
+	left: 0;
+	margin-top: -45px
+}
+
+.ui-showdiv-close span {
+	float: right;
+	right: 15px;
+	top: 10px;
+	position: relative
+}
+
+.bz-anniu01 {
+	background-image: url(/assets/bestpay/sdm/bdtubiao01.gif);
+	background-position: 0 -355px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	text-decoration: none!important;
+	vertical-align: middle;
+	overflow: visible;
+	cursor: pointer;
+	border: 0
+}
+
+.bz-anniu02 {
+	display: block;
+	cursor: pointer;
+	border: 0;
+	text-decoration: none;
+	overflow: visible;
+	padding: 0 22px 0 22px;
+	background-position: right -503px;
+	color: white;
+	background-image: url(/assets/bestpay/sdm/bdtubiao01.gif);
+	background-color: transparent;
+	line-height: 31px;
+	font-size: 14px;
+	font-weight: bold
+}
+
+.bz-anniu01-b {
+	background-image: url(/assets/bestpay/sdm/bdtubiao01.gif);
+	background-position: 0 -1512px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	text-decoration: none!important;
+	vertical-align: middle;
+	overflow: visible;
+	cursor: pointer;
+	border: 0
+}
+
+.bz-anniu02-b {
+	display: block;
+	cursor: pointer;
+	border: 0;
+	text-decoration: none;
+	overflow: visible;
+	padding: 0 22px 0 22px;
+	background-position: right -1563px;
+	color: #FFF;
+	font-weight: bold;
+	background-image: url(/assets/bestpay/sdm/bdtubiao01.gif);
+	background-color: transparent;
+	line-height: 31px;
+	font-size: 14px
+}
+
+.bz-anniu01-h25 {
+	background-image: url(/assets/bestpay/sdm/bdtubiao01.gif);
+	background-position: 0 -651px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding: 0;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	text-decoration: none!important;
+	vertical-align: middle;
+	overflow: visible;
+	cursor: pointer;
+	border: 0
+}
+
+.bz-anniu02-h25 {
+	display: block;
+	cursor: pointer;
+	border: 0;
+	text-decoration: none;
+	overflow: visible;
+	padding: 0 22px 0 22px;
+	background-position: right -771px;
+	color: #FFF;
+	font-weight: bold;
+	background-image: url(/assets/bestpay/sdm/bdtubiao01.gif);
+	background-color: transparent;
+	line-height: 25px;
+	font-size: 12px
+}
+
+.my-an01 {
+	background-image: url(/assets/bestpay/sdm/bdtubiao01.gif);
+	background-position: 0 -711px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none!important;
+	overflow: visible;
+	cursor: default;
+	border: 0
+}
+
+.my-an02 {
+	display: block;
+	cursor: pointer;
+	border: 0;
+	text-decoration: none;
+	overflow: visible;
+	padding: 0 17px 0 17px;
+	background-position: right -831px;
+	color: #51586a;
+	background-image: url(/assets/bestpay/sdm/bdtubiao01.gif);
+	background-color: transparent;
+	line-height: 25px;
+	font-size: 12px;
+	font-weight: bold
+}
+
+a.ui-button {
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	cursor: pointer;
+	font-family: verdana,Hiragino Sans GB;
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 3px;
+	padding: 0 20px;
+	background-image: none;
+	overflow: visible;
+	display: inline-block
+}
+
+a.ui-button:active {
+	position: relative;
+	top: 2px;
+	*top: 0
+}
+
+a.ui-button-icon01 {
+	border: 1px solid #c2ccdf;
+	color: #666;
+	background-color: #f1f5f5;
+	line-height: 28px;
+	height: 28px;
+	font-weight: 100;
+	position: relative;
+	padding-left: 30px
+}
+
+a.ui-button-icon01 i {
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	float: left;
+	position: absolute;
+	left: 11px;
+	top: 7px;
+	opacity: .8;
+	filter: alpha(opacity=80);
+	background-repeat: no-repeat
+}
+
+*+html a.ui-button-icon01 i {
+	top: 9px
+}
+
+a.ui-button-icon01:hover i {
+	opacity: 1;
+	filter: alpha(opacity=100)
+}
+
+a.ui-button-icon01 i.ui-addicon {
+	background-image: url(/assets/bestpay/inside-main/addicon01.png)
+}
+
+*+html a.ui-button-icon01 {
+	line-height: 30px
+}
+
+a.ui-button-icon01:hover {
+	border: 1px solid #b6c1d5;
+	background-color: #ebf0f0
+}
+
+a.ui-button-morange {
+	border: 1px solid #ba4a06;
+	background-color: #ef9018;
+	color: #fff;
+	line-height: 28px;
+	height: 28px
+}
+
+*+html a.ui-button-morange {
+	line-height: 30px
+}
+
+a.ui-button-morange:hover {
+	border: 1px solid #ba4a06;
+	background-color: #f19a2b;
+	color: #fff
+}
+
+a.ui-button-morange48 {
+	border: 1px solid #ba4a06;
+	background-color: #ef9018;
+	color: #fff;
+	line-height: 48px;
+	height: 48px;
+	font-family: "微软雅黑";
+	font-size: 22px;
+	font-weight: 100
+}
+
+*+html a.ui-button-morange48 {
+	line-height: 50px
+}
+
+a.ui-button-morange48:hover {
+	border: 1px solid #ba4a06;
+	background-color: #f19a2b
+}
+
+a.ui-button-primary {
+	border: 1px solid #ffc467;
+	background-color: #fff8e6;
+	color: #f3a115;
+	line-height: 28px;
+	height: 28px;
+	font-weight: 100
+}
+
+*+html a.ui-button-primary {
+	line-height: 30px
+}
+
+a.ui-button-primary:hover {
+	border: 1px solid #fea308;
+	background-color: #fff7e2;
+	color: #f3a115
+}
+
+a.ui-button-primary48 {
+	border: 1px solid #ffc467;
+	background-color: #fff8e6;
+	color: #f3a115;
+	line-height: 48px;
+	height: 48px;
+	font-size: 22px;
+	font-weight: 100;
+	font-family: "微软雅黑"
+}
+
+*+html a.ui-button-primary48 {
+	line-height: 50px
+}
+
+a.ui-button-primary48:hover {
+	border: 1px solid #fea308;
+	background-color: #fff7e2
+}
+
+a.ui-button-serprimary {
+	border: 1px solid #ffc467;
+	background-color: #fff8e6;
+	color: #f3a115;
+	line-height: 21px;
+	height: 21px;
+	font-size: 12px;
+	padding: 2px 15px;
+	font-weight: 100
+}
+
+a.ui-button-serprimary:hover {
+	border: 1px solid #fea308;
+	background-color: #fff7e2
+}
+
+a.ui-button-morange-h25 {
+	border: 1px solid #d66500;
+	background-color: #f57403;
+	color: #fff;
+	line-height: 21px;
+	height: 21px;
+	font-size: 12px
+}
+
+*+html a.ui-button-morange-h25 {
+	line-height: 26px
+}
+
+a.ui-button-mwhite {
+	border: 1px solid #c2ccdf;
+	color: #666;
+	background-color: #f1f5f5;
+	line-height: 28px;
+	height: 28px;
+	font-weight: 100
+}
+
+*+html a.ui-button-mwhite {
+	line-height: 30px
+}
+
+a.ui-button-mwhite:hover {
+	border: 1px solid #b6c1d5;
+	background-color: #ebf0f0;
+	color: #666
+}
+
+a.ui-button-mwhite48 {
+	border: 1px solid #c2ccdf;
+	color: #666;
+	background-color: #f1f5f5;
+	line-height: 48px;
+	height: 48px;
+	font-weight: 100;
+	font-size: 20px;
+	font-family: "微软雅黑"
+}
+
+*+html a.ui-button-mwhite48 {
+	line-height: 50px
+}
+
+a.ui-button-mwhite48:hover {
+	border: 1px solid #b6c1d5;
+	background-color: #ebf0f0
+}
+
+a.ui-button-hwhite {
+	border: 1px solid #bababa;
+	color: #939393;
+	background-color: #c6c6c6;
+	line-height: 26px;
+	height: 26px;
+	font-weight: 100;
+	cursor: default
+}
+
+a.ui-button-hwhite:active {
+	position: relative;
+	top: 0
+}
+
+a.ui-button-serOrange {
+	border: 1px solid #ba4a06;
+	background-color: #ee9017;
+	color: #fff;
+	line-height: 21px;
+	height: 21px;
+	font-size: 12px;
+	padding: 2px 15px
+}
+
+a.ui-button-serOrange:hover {
+	background-color: #f19a2b;
+	color: #fff
+}
+
+a.ui-button-sermwhite {
+	border: 1px solid #c2ccdf;
+	color: #666;
+	background-color: #f1f5f5;
+	line-height: 21px;
+	height: 21px;
+	font-size: 12px;
+	padding: 2px 15px;
+	font-weight: 100
+}
+
+a.ui-button-sermwhite:hover {
+	border: 1px solid #b6c1d5;
+	background-color: #ebf0f0;
+	color: #666
+}
+
+i.ui-noteicon01 {
+	width: 15px;
+	height: 15px;
+	background: url(/assets/bestpay/inside-main/noteicon01.png) no-repeat;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	vertical-align: middle
+}
+
+.ui-result-icon {
+	padding: 4px 4px 4px 24px;
+	display: inline-block;
+	position: relative;
+	color: #FFF;
+	font-size: 12px;
+	*display: inline;
+	zoom: 1
+}
+
+.ui-result-icon i {
+	width: 16px;
+	height: 16px;
+	display: block;
+	background-image: url(/assets/bestpay/inside-main/Resultbgs01.png);
+	position: absolute;
+	left: 4px;
+	top: 4px
+}
+
+.ui-Successicon01 {
+	background-color: #659900
+}
+
+.ui-Successicon01 i {
+	background-position: 0 0
+}
+
+.ui-Failure01 {
+	background-color: #ff1400
+}
+
+.ui-Failure01 i {
+	background-position: -16px 0
+}
+
+.ui-apptitle {
+	width: 100%;
+	height: 65px;
+	display: block;
+	float: left;
+	position: relative;
+	margin-top: 10px;
+	border-bottom: 1px dashed #ccc;
+	margin-bottom: 15px
+}
+
+.ui-apptitle .ui-titleimg {
+	position: absolute;
+	width: 51px;
+	height: 53px;
+	display: block;
+	float: left;
+	left: 0
+}
+
+.ui-apptitle .ui-titletxt {
+	position: absolute;
+	float: left;
+	left: 65px;
+	top: 0
+}
+
+.ui-apptitle .ui-titletxt .ui-p1 {
+	font-size: 14px;
+	line-height: 31px
+}
+
+.ui-apptitle .ui-titletxt .ui-p2 {
+	font-size: 12px
+}
+
+.ui-apptitle .ui-Servertime {
+	position: absolute;
+	float: right;
+	right: 5px;
+	top: 5px
+}
+
+.ui-apptitle .ui-Share {
+	position: absolute;
+	float: right;
+	right: 5px;
+	top: 30px
+}
+
+.ui-apptitle .ui-Share a {
+	display: block;
+	line-height: 20px;
+	float: left;
+	margin-left: 10px;
+	color: #666
+}
+
+.ui-apptitle .ui-Share a:hover {
+	color: #2597dc
+}
+
+.ui-apptitle .ui-Share i {
+	width: 16px;
+	height: 16px;
+	background-image: url(/assets/bestpay/inside-main/allicon.png);
+	display: block;
+	float: left;
+	margin-right: 5px
+}
+
+.ui-apptitle .ui-Share .ui-sina {
+	background-position: -50px -97px
+}
+
+.ui-apptitle .ui-Share .ui-hap {
+	background-position: -71px -97px
+}
+
+.ui-apptitle .ui-Share .ui-peo {
+	background-position: -92px -97px
+}
+
+.ui-form {
+	width: 100%;
+	float: left;
+	display: inline-block;
+	padding: 5px;
+	margin-bottom: 5px;
+	*float: inherit
+}
+
+*html .ui-form {
+	padding: 5px 0 5px 0
+}
+
+*html .ui-form a.ui-button {
+	margin-bottom: 1px
+}
+
+.ui-form .ui-form-txt01 {
+	float: left;
+	width: 120px;
+	display: inline-block;
+	height: 25px;
+	text-align: right;
+	font-size: 14px;
+	padding-right: 10px
+}
+
+.ui-form .ui-form-txt02 {
+	font-size: 14px
+}
+
+.ui-form .ui-form-item {
+	float: left;
+	display: inline-block;
+	text-align: left
+}
+
+.ui-form .ui-form-item .ui-redfont {
+	font-size: 22px;
+	color: #F00;
+	font-weight: bold;
+	vertical-align: top;
+	display: inline-block;
+	position: relative;
+	top: -10px
+}
+
+.ui-form .ui-lifepay-select01 {
+	line-height: 28px;
+	border: 1px solid #CCC;
+	font-size: 14px;
+	padding: 5px 5px;
+	margin-left: 0;
+	margin-top: -2px;
+	margin-top: -4px\0;
+	vertical-align: middle
+}
+
+*html .ui-form .ui-lifepay-select01 {
+	margin-top: 0
+}
+
+*+html .ui-form .ui-lifepay-select01 {
+	margin-top: 0
+}
+
+.ui-form .ui-radio {
+	position: relative;
+	width: 15px;
+	height: 15px;
+	top: -1px;
+	top: -2px\0;
+	margin-right: 5px
+}
+
+*html.ui-form .ui-radio {
+	top: -2px
+}
+
+*+html.ui-form .ui-radio {
+	top: 0
+}
+
+.ui-form .ui-Gray-notes01 {
+	text-align: left;
+	display: block;
+	float: left;
+	clear: both;
+	color: #bbb;
+	width: 100%
+}
+
+.ui-form .ui-Gray-notes02 {
+	text-align: left;
+	display: inline-block;
+	float: left;
+	color: #ddd;
+	position: relative;
+	top: 10px
+}
+
+.ui-form .ui-Gray-notes03 {
+	text-align: left;
+	display: inline-block;
+	color: #ddd;
+	margin-left: 5px
+}
+
+.ui-form .ui-form-item .ui-txtinput01 {
+	position: relative;
+	top: -4px;
+	margin-right: 5px
+}
+
+.ui-form .ui-form-item .ui-button {
+	margin-right: 5px;
+	margin-top: -2px;
+	*position: relative;
+	*top: -2px
+}
+
+.ui-form .ui-form-item .ui-txtright {
+	display: inline-block;
+	font-size: 14px
+}
+
+.ui-form .ui-form-item .ui-CheckControls {
+	position: relative;
+	top: -4px
+}
+
+.ui-form .ui-rel {
+	position: relative
+}
+
+.ui-form .ui-Checkimg {
+	position: absolute;
+	float: left;
+	left: 75px;
+	top: 4px
+}
+
+.ui-form .ui-CheckControls {
+	margin-left: 5px
+}
+
+.ui-form .ui-Exchange {
+	margin-left: 5px;
+	margin-top: 5px;
+	vertical-align: top
+}
+
+.ui-form .ui-Check01 {
+	float: left;
+	width: 15px;
+	height: 15px;
+	vertical-align: top;
+	position: relative;
+	top: -1px
+}
+
+*html .ui-form .ui-Check01 {
+	top: 2px
+}
+
+*+html .ui-form .ui-Check01 {
+	top: 1px
+}
+
+.ui-form .ui-Agreement {
+	margin-top: 10px;
+	clear: both
+}
+
+.ui-Agreementtxt {
+	text-align: left;
+	padding: 0 20px 30px 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	height: 300px;
+	overflow: hidden;
+	overflow-y: auto;
+	float: left;
+	color: #666;
+	line-height: 21px;
+	margin-right: 10px;
+	*margin-right: 0
+}
+
+.ui-protitle {
+	width: 100%;
+	display: inline-block;
+	background-color: #f3f3f3;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 20px
+}
+
+.ui-protitle span {
+	position: relative;
+	left: 15px;
+	font-size: 14px;
+	font-weight: bold
+}
+
+.ui-TranSearch {
+	margin-top: 20px;
+	display: inline-block
+}
+
+.ui-TranSearch .ui-txtinput01 {
+	margin-left: 5px;
+	margin-right: 10px;
+	padding: 4px 10px;
+	box-shadow: 2px 2px 2px #eee inset;
+	margin-top: -2px;
+	padding: 6px 10px 2px 10px\0
+}
+
+*html .ui-TranSearch .ui-txtinput01 {
+	line-height: 17px;
+	margin-top: 0;
+	height: 19px
+}
+
+*+html .ui-TranSearch .ui-txtinput01 {
+	padding: 6px 10px 2px 10px;
+	margin-top: 0
+}
+
+.ui-TranSearch .ui-timeinput {
+	width: 105px;
+	background-image: url(/assets/bestpay/inside-main/allicon.png);
+	background-position: -36px -445px;
+	background-repeat: no-repeat
+}
+
+.ui-TranSearch .ui-Searchselect01 {
+	line-height: 25px;
+	border: 1px solid #CCC;
+	font-size: 14px;
+	padding: 5px 5px;
+	margin-left: 5px;
+	vertical-align: top;
+	width: auto;
+	margin-right: 5px;
+	margin-top: -2px;
+	*margin-top: 2px
+}
+
+*html .ui-TranSearch .ui-Searchselect01 {
+	top: 3px
+}
+
+*+html .ui-TranSearch .ui-Searchselect01 {
+	top: 3px
+}
+
+.ui-TranSearch .ui-ser-link {
+	position: relative
+}
+
+.ui-TranSearch .ui-ser-link .ui-ser-time {
+	position: relative;
+	top: 2px
+}
+
+.ui-TranSearch a.ui-ser-time {
+	color: #2589cf;
+	font-size: 12px;
+	padding: 2px 5px;
+	margin: 0 5px;
+	border-radius: 2px;
+	display: inline-block
+}
+
+.ui-TranSearch a.ui-ser-time:hover {
+	background-color: #e3f1fa
+}
+
+.ui-TranSearch a.ui-sertime-sel {
+	background-color: #2589cf;
+	color: #fff
+}
+
+.ui-TranSearch a.ui-sertime-sel:hover {
+	background-color: #2589cf
+}
+
+.ui-TransactionSwitch {
+	width: 100%;
+	display: inline-block;
+	height: 33px;
+	border-bottom: 3px #ee9017 solid
+}
+
+.ui-TransactionSwitch li {
+	display: inline-block;
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+	color: #2589cf;
+	text-align: center;
+	font-size: 12px;
+	height: 33px;
+	line-height: 33px;
+	cursor: pointer
+}
+
+.ui-TransactionSwitch li:hover {
+	background-color: #f4f4f4
+}
+
+.ui-TransactionSwitch .ui-TranSw-sel {
+	background-color: #ee9017;
+	color: #FFF
+}
+
+.ui-TransactionSwitch .ui-TranSw-sel:hover {
+	background-color: #ee9017
+}
+
+.ui-TransactionSwitch02 {
+	width: 100%;
+	display: inline-block;
+	height: 35px;
+	background-color: #f3f2f2;
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 20px
+}
+
+.ui-TransactionSwitch02 ul {
+	position: relative;
+	top: 5px;
+	left: 10px;
+	display: inline-block
+}
+
+.ui-TransactionSwitch02 li {
+	display: inline-block;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer
+}
+
+.ui-TransactionSwitch02 a {
+	display: block;
+	height: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	*display: inline;
+	*zoom: 1
+}
+
+.ui-TransactionSwitch02 a:hover {
+	text-decoration: underline;
+	color: #08c
+}
+
+.ui-TransactionSwitch02 li:hover {
+	background-color: #efefef
+}
+
+.ui-TransactionSwitch02 .ui-TranSw-sel {
+	background-color: #fff;
+	color: #666;
+	font-weight: bold;
+	border: 1px solid #CCC;
+	border-bottom: 0
+}
+
+.ui-TransactionSwitch02 .ui-TranSw-sel:hover {
+	background-color: #fff
+}
+
+.ui-TransactionSwitch02 .ui-TranSw-sel a:hover {
+	text-decoration: none
+}
+
+.ui-Transaction-none {
+	width: 100%;
+	height: 125px;
+	display: block;
+	position: relative
+}
+
+.ui-Transaction-none .ui-noneimg {
+	position: absolute;
+	left: 250px;
+	top: 55px;
+	display: block;
+	width: 33px;
+	height: 32px;
+	background-image: url(/assets/bestpay/inside-main/allicon.png);
+	background-position: 0 -312px;
+	background-repeat: no-repeat
+}
+
+.ui-Transaction-none .ui-nonetxt {
+	position: absolute;
+	left: 290px;
+	top: 65px;
+	font-size: 14px
+}
+
+.ui-Transaction-none .ui-nonetxt a {
+	font-size: 14px
+}
+
+.ui-Modifyinfo {
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	padding: 20px 0;
+	display: inline-block;
+	width: 100%;
+	*width: 99%;
+	margin: 20px 0
+}
+
+.ui-noleft {
+	background-image: none;
+	background-color: #fff
+}
+
+.ui-noleftdiv {
+	width: 998px;
+	border: 1px solid #CCC;
+	border-top: 0;
+	min-height: 500px;
+	!important _height: 500px;
+	display: inline-block;
+	margin: 0 auto
+}
+
+.ui-all-note {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 20px
+}
+
+.ui-all-note .ui-noteimg01 {
+	width: 50px;
+	height: 50px;
+	display: block;
+	float: left;
+	background-image: url(/assets/bestpay/inside-main/cardnoteimg.jpg);
+	margin-right: 15px;
+	margin-left: 15px
+}
+
+.ui-all-note .ui-notetxt01 {
+	width: 650px;
+	display: inline-block;
+	line-height: 21px;
+	float: left;
+	text-align: left
+}
+
+.ui-all-note .ui-notetxt01 .ui-note-tit01 {
+	padding: 2px 10px;
+	background-color: #f4f4f4;
+	color: #333;
+	display: block;
+	float: left;
+	*display: inline;
+	*zoom: 1
+}
+
+.ui-all-note .ui-notetxt01 .ui-note-font01 {
+	display: block;
+	float: left;
+	margin-left: 10px;
+	width: 570px
+}
+
+.ui-all-note .ui-notetxt01 .ui-note-font01 strong {
+	color: #2a9cd8
+}
+
+.ui-all-note .ui-notetxt01 li {
+	clear: both;
+	margin-bottom: 5px;
+	display: inline-block;
+	border-bottom: dashed 1px #ccc;
+	padding-bottom: 10px;
+	width: 685px
+}
+
+.ui-titlestyle01 {
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background-color: #f3f3f3;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	font-family: "宋体"
+}
+
+.ui-titlestyle01 span {
+	position: relative;
+	left: 20px
+}
+
+table.ui-appcenter-infotab {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	line-height: 40px;
+	background-color: #ccc;
+	vertical-align: middle;
+	border-spacing: 1;
+	border-collapse: separate;
+	display: inline-table
+}
+
+.ui-appcenter-infotab td {
+	background-color: #FFF;
+	padding-left: 15px;
+	text-align: left;
+	font-size: 14px
+}
+
+.ui-appcenter-infotab td .ui-Check01 {
+	margin-top: -3px;
+	margin-right: 5px;
+	vertical-align: middle;
+	width: 15px;
+	height: 15px;
+	display: inline-block
+}
+
+.ui-appcenter-infotab .ui-tabtit01 td {
+	text-align: center;
+	background-color: #f1f1f1;
+	font-weight: bold;
+	padding: 2px
+}
+
+.ui-appcenter-infotab .ui-tabtxt01 {
+	padding-right: 15px;
+	text-align: right;
+	background-color: #f1f1f1
+}
+
+.ui-appcenter-infotab .ui-tabtxt01y .ui-rel {
+	position: relative
+}
+
+.ui-appcenter-infotab .ui-tabtxt01y {
+	vertical-align: bottom
+}
+
+.ui-appcenter-infotab .ui-tabtxt01y .ui-txt-a {
+	position: relative;
+	top: 3px
+}
+
+*html .ui-appcenter-infotab .ui-tabtxt01y .ui-txt-a {
+	top: 14px
+}
+
+*+html .ui-appcenter-infotab .ui-tabtxt01y .ui-txt-a {
+	top: 14px
+}
+
+.ui-appcenter-infotab .ui-tabtxt01y .ui-rel .ui-txtinput01 {
+	margin: 5px 0
+}
+
+.ui-appcenter-infotab .ui-tabtxt01y .ui-CheckControls {
+	position: relative;
+	top: 5px
+}
+
+.ui-appcenter-infotab .ui-tabtxt01y .ui-rel .ui-Checkimg {
+	position: absolute;
+	float: left;
+	left: 82px;
+	top: 12px
+}
+
+.ui-appcenter-infotab .ui-tabtxt02 td {
+	text-align: center;
+	padding: 2px
+}
+
+.ui-appcenter-infotab .ui-radio {
+	margin-top: 14px;
+	margin-top: 11px\0;
+	*margin-top: -1px
+}
+
+.ui-appcenter-infotab .ui-radio02 {
+	margin-top: 14px;
+	margin-top: 11px\0;
+	*margin-top: -1px
+}
+
+.ui-appcenter-span01 {
+	float: right;
+	margin-bottom: 30px;
+	display: block
+}
+
+.ui-GreenNote {
+	width: 100%;
+	*width: 99%;
+	padding: 6px 0;
+	display: inline-block;
+	background-color: #fafff1;
+	border: 1px solid #b3ca91;
+	color: #8fc23f;
+	position: relative;
+	margin-bottom: 15px
+}
+
+.ui-GreenNote .ui-GreenNoteimg {
+	width: 20px;
+	height: 20px;
+	display: block;
+	background: url(/assets/bestpay/inside-main/greennoteimg01.jpg) no-repeat left;
+	position: absolute;
+	left: 10px;
+	top: 7px
+}
+
+.ui-GreenNote .ui-Greentxt {
+	margin-left: 20px;
+	display: inline-block;
+	line-height: 21px;
+	width: 90%
+}
+
+.ui-GreenNote .ui-Greentxt li.ui-title {
+	width: 50px;
+	text-align: right;
+	float: left
+}
+
+.ui-GreenNote .ui-Greentxt li.ui-main {
+	width: 90%;
+	text-align: left;
+	float: left;
+	padding-left: 5px
+}
+
+.ui-Downnote {
+	background-color: #fffde7;
+	padding: 10px;
+	width: 460px;
+	border: 1px solid #d6c069;
+	position: relative;
+	min-height: 25px;
+	!important _height: 25px;
+	float: left;
+	clear: both;
+	margin-top: 15px
+}
+
+.ui-Downnote .ui-aggimg01 {
+	width: 19px;
+	height: 8px;
+	font-size: 8px;
+	display: block;
+	background-image: url(/assets/bestpay/inside-main/downnot-aggimg01.png);
+	position: absolute;
+	z-index: 10;
+	float: left;
+	left: 20px;
+	top: -8px
+}
+
+.ui-Downnote .ui-noteimg01 {
+	width: 14px;
+	height: 14px;
+	display: block;
+	background-image: url(/assets/bestpay/inside-main/allicon.png);
+	background-position: -72px -48px;
+	position: absolute;
+	left: 12px;
+	top: 12px
+}
+
+.ui-Downnote .ui-txtnote {
+	width: 420px;
+	display: inline-block;
+	float: left;
+	margin-left: 25px;
+	line-height: 21px
+}
+
+.ui-appcenterform {
+	margin-top: 25px
+}
+
+.ui-appcenterform .ui-form-txt01 {
+	width: 160px
+}
+
+.ui-appcenterform .ui-Radio {
+	width: 15px;
+	height: 15px;
+	margin-top: 2px;
+	margin-top: -2px\0;
+	*margin-top: 0
+}
+
+.ui-appcenterform .ui-radspan {
+	position: relative;
+	top: 2px
+}
+
+.ui-appcenterform .ui-txt18 .ui-text-orange {
+	font-size: 24px
+}
+
+.ui-appcenterform .ui-txt18 .ui-form-txt02 {
+	top: -9px;
+	position: relative
+}
+
+.ui-appshowli01 {
+	width: 600px
+}
+
+.ui-appshowli01 li {
+	width: 120px;
+	height: 43px;
+	float: left;
+	display: block;
+	margin-right: 5px;
+	border: 2px solid #CCC;
+	margin-bottom: 3px;
+	cursor: pointer;
+	position: relative
+}
+
+.ui-appshowli01 .showli-sel i {
+	width: 12px;
+	height: 13px;
+	line-height: 13px;
+	font-size: 13px;
+	display: block;
+	background-image: url(/assets/bestpay/inside-main/box-agg01.png);
+	position: absolute;
+	top: 32px;
+	float: right;
+	right: 0
+}
+
+.ui-appshowli01 .showli-sel:hover {
+	border: 2px solid red
+}
+
+.ui-appshowli01 li img {
+	width: 120px;
+	height: 43px;
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	float: left
+}
+
+.ui-appshowli01 li:hover {
+	border: 2px solid #aaa
+}
+
+.ui-appshowli01 .showli-sel {
+	border: 2px solid red
+}
+
+.ui-appshowli02 {
+	position: relative;
+	top: -5px
+}
+
+.ui-appshowli02 li {
+	width: 64px;
+	height: 32px;
+	float: left;
+	display: block;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	cursor: pointer;
+	background-image: url(/assets/bestpay/inside-main/3G-bgimg.jpg);
+	line-height: 32px;
+	text-align: center;
+	color: #666;
+	font-size: 14px;
+	background-position: -64px -158px;
+	font-weight: bold
+}
+
+.ui-appshowli02 li:hover {
+	background-position: -128px -158px
+}
+
+.ui-appshowli02 li img {
+	float: left;
+	display: block;
+	width: 50px;
+	height: 20px;
+	margin-left: 3px;
+	margin-top: 4px
+}
+
+.ui-appshowli02 .showli-sel {
+	color: #d52202;
+	background-position: 0 -158px
+}
+
+.ui-appshowli02 .showli-sel:hover {
+	color: #d52202;
+	background-position: 0 -158px
+}
+
+.ui-selbankstyle {
+	width: 100%;
+	display: inline-block
+}
+
+.ui-selbankstyle .ui-form-txt01 {
+	float: left;
+	display: block
+}
+
+.ui-selbankstyle .ui-form-item {
+	float: left;
+	width: 550px;
+	display: inline-block;
+	margin-bottom: 15px
+}
+
+.ui-bankstyle {
+	width: 500px;
+	height: 42px;
+	border: 1px solid #CCC;
+	vertical-align: top;
+	font-size: 14px;
+	margin-bottom: 5px;
+	display: block;
+	float: left;
+	position: relative;
+	padding-left: 25px;
+	border-radius: 4px;
+	top: -10px
+}
+
+.ui-bankstyle .ui-radio {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	*top: 13px;
+	float: left;
+	width: 15px;
+	height: 15px
+}
+
+.ui-bankstyle img {
+	margin-top: 5px
+}
+
+.ui-bankstyle font {
+	font-size: 14px;
+	vertical-align: top;
+	position: relative;
+	top: 12px
+}
+
+.ui-bankstyle span {
+	vertical-align: top
+}
+
+.ui-radiosel {
+	border: 1px solid #999
+}
+
+.ui-bankstyle a {
+	position: absolute;
+	float: right;
+	right: 15px;
+	top: 11px
+}
+
+.ui-tabVerification {
+	position: relative;
+	vertical-align: top
+}
+
+.ui-tabVerification .ui-txtinput01 {
+	margin-top: 3px
+}
+
+.ui-tabVerification .ui-Checkimg {
+	position: absolute;
+	float: left;
+	left: 95px;
+	top: 12px
+}
+
+.ui-tabVerification .ui-txt-a {
+	display: inline-block
+}
+
+.ui-tabVerification .ui-CheckControls {
+	position: relative;
+	top: 6px
+}
+
+.index-main {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	background-color: #fff
+}
+
+.ui-class-pro {
+	position: static;
+	z-index: auto
+}
+
+*html .parsley-error-list {
+	display: inline-block;
+	height: auto;
+	float: left
+}
+
+*html .parsley-error-list li {
+	display: inline
+}
+
+*+html .parsley-error-list {
+	display: inline-block;
+	height: auto;
+	float: left
+}
+
+*+html .parsley-error-list li {
+	display: inline
+}
+
+.origin .ui-datepicker select.ui-datepicker-month,.origin .ui-datepicker select.ui-datepicker-year {
+	width: 65px;
+	margin-right: 5px;
+	position: relative;
+	top: -1px;
+	height: 20px;
+	padding: 0;
+	margin-left: 5px
+}
+
+*html .origin .ui-datepicker .ui-datepicker-header {
+	width: 225px;
+	height: 25px
+}
+
+.origin .ui-datepicker .ui-datepicker-title {
+	margin: 0 auto
+}
+
+.ui-TranSearch .ui-form-txt01 {
+	margin-right: 15px;
+	margin-left: 5px;
+	margin-top: 3px
+}
+
+.ui-TranSearch .ui-select01 {
+	position: relative;
+	top: 4px;
+	vertical-align: middle;
+	margin-right: 15px;
+	margin-left: 5px
+}
+
+*html .ui-TranSearch .ui-select01 {
+	top: 0
+}
+
+*+html .ui-TranSearch .ui-select01 {
+	top: 5px
+}
+
+.ui-appicon53 {
+	width: 55px;
+	height: 55px;
+	display: block;
+	background-image: url(/wmdw/styles/images/appicon.png);
+	background-repeat: no-repeat;
+	float: left
+}
+
+.ui-3gicon53 {
+	background-position: -203px -440px
+}
+
+.ui-Numbericon53 {
+	background-position: -203px -605px
+}
+
+.ui-11888cardicon53 {
+	background-position: -203px -495px
+}
+
+.ui-Gameicon53 {
+	background-position: -203px -550px
+}
+
+.ui-QQicon53 {
+	background-position: -203px -770px
+}
+
+.ui-mobicon53 {
+	background-position: -203px -385px
+}
+
+.ui-Trafficicon53 {
+	background-position: -203px -880px
+}
+
+.ui-sichuanTrafficicon53 {
+	background-position: -203px -330px
+}
+
+.ui-yccardicicon53 {
+	background-position: -203px -825px
+}
+
+.ui-telephoneicon53 {
+	background-position: -203px -165px
+}
+
+.ui-Heatericon53 {
+	background-position: -203px -275px
+}
+
+.ui-TVicon53 {
+	background-position: -203px -220px
+}
+
+.ui-Watericon53 {
+	background-position: -203px 0
+}
+
+.ui-Gasicon53 {
+	background-position: -203px -110px
+}
+
+.ui-LotteryTicketicon53 {
+	background-position: -203px -660px
+}
+
+.ui-Safetyicon53 {
+	background-position: -203px -715px
+}
+
+.ui-Electricityicon53 {
+	background-position: -203px -55px
+}
+
+.ui-mailicon53 {
+	background-position: -203px -935px
+}
+
+.ui-insupericon53 {
+	background-position: -203px -1100px
+}
+
+.ui-educateicon53 {
+	background-position: -203px -1044px
+}
+
+.ui-balanceicon53 {
+	background-position: -203px -1210px
+}
+
+.ui-newnumbericon53 {
+	background-position: -203px -1320px
+}
+
+.ui-bankicon53 {
+	background-position: -203px -1265px
+}
+
+.ui-addybicon53 {
+	background-position: -203px -989px
+}
+
+.ui-my-left .ui-my-App .ui-myappul i:hover {
+	width: 33px;
+	height: 32px;
+	display: block;
+	background-image: url(/assets/bestpay/inside-main/appicon.png);
+	background-repeat: no-repeat;
+	margin: 0 auto
+}
+
+.ui-my-left .ui-my-App .ui-myappul i {
+	width: 33px;
+	height: 32px;
+	display: block;
+	background-image: url(/assets/bestpay/inside-main/appicon.png);
+	background-repeat: no-repeat;
+	margin: 0 auto
+}
+
+i.ui-myappicon-water {
+	background-position: -169px 0
+}
+
+i.ui-myappicon-3G {
+	background-position: -169px -256px
+}
+
+i.ui-myappicon-yccard {
+	background-position: -169px -480px
+}
+
+i.ui-myappicon-telephone {
+	background-position: -169px -96px
+}
+
+i.ui-myappicon-heater {
+	background-position: -169px -160px
+}
+
+i.ui-myappicon-TV {
+	background-position: -169px -128px
+}
+
+i.ui-myappicon-Gas {
+	background-position: -169px -64px
+}
+
+i.ui-myappicon-QQ {
+	background-position: -169px -448px
+}
+
+i.ui-myappicon-LotteryTicket {
+	background-position: -169px -384px
+}
+
+i.ui-myappicon-Game {
+	background-position: -169px -320px
+}
+
+i.ui-myappicon-Traffic {
+	background-position: -169px -512px
+}
+
+i.ui-myappicon-Safety {
+	background-position: -169px -416px
+}
+
+i.ui-myappicon-Number {
+	background-position: -169px -352px
+}
+
+i.ui-myappicon-Electricity {
+	background-position: -169px -32px
+}
+
+i.ui-myappicon-mob {
+	background-position: -169px -224px
+}
+
+i.ui-myappicon-11888card {
+	background-position: -169px -288px
+}
+
+i.ui-myappicon-sichuanTraffic {
+	background-position: -170px -192px
+}
+
+i.ui-myappicon-mall {
+	background-position: -169px -544px
+}
+
+i.ui-myappicon-educate {
+	background-position: -169px -612px
+}
+
+i.ui-myappicon-insuper {
+	background-position: -169px -646px
+}
+
+i.ui-myappicon-newnumber {
+	background-position: -169px -776px
+}
+
+i.ui-myappicon-balance {
+	background-position: -169px -712px
+}
+
+i.ui-myappicon-bank {
+	background-position: -170px -744px
+}
+
+i.ui-myappicon-addyb {
+	background-position: -170px -578px
+}
+
+.appcenter-menu .ui-appleft-main i {
+	width: 22px;
+	height: 22px;
+	background-image: url(/assets/bestpay/inside-main/appicon.png);
+	margin-left: 10px;
+	margin-top: 5px;
+	float: left;
+	display: block;
+	background-repeat: no-repeat;
+	*display: inline
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftwater {
+	background-position: -259px 0
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftElectricity {
+	background-position: -259px -22px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftGas {
+	background-position: -259px -44px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-lefttelephone {
+	background-position: -259px -66px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftTV {
+	background-position: -259px -88px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftHeater {
+	background-position: -259px -110px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftTraffic {
+	background-position: -259px -352px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftSichuanTraffic {
+	background-position: -259px -132px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftMobile {
+	background-position: -259px -154px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-left11888card {
+	background-position: -259px -198px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftYCcard {
+	background-position: -259px -330px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftGame {
+	background-position: -259px -220px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftQQ {
+	background-position: -259px -308px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-left3G {
+	background-position: -259px -176px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftNumber {
+	background-position: -259px -242px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftLotteryTicket {
+	background-position: -259px -264px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftSafety {
+	background-position: -259px -286px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftMall {
+	background-position: -259px -374px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-insuper {
+	background-position: -259px -441px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-lefteducate {
+	background-position: -259px -419px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftnewNumber {
+	background-position: -259px -531px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftbalance {
+	background-position: -259px -485px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftbank {
+	background-position: -259px -508px
+}
+
+.appcenter-menu .ui-appleft-main i.icon-leftaddyb {
+	background-position: -259px -396px
+}

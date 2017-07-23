@@ -1,0 +1,583 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="keywords" content="专题,">
+
+<title>网上展馆</title>
+<base target="_blank" />
+<style type="text/css">
+<!--
+*{margin:0;padding:0;list-style-type:none;}
+body{}
+.b_map{margin:10px auto 5px;width:970px;background-image:url(http://img.hf365.com/0/13/69/58/13695822_131606.png); background-repeat:no-repeat; height:790px}
+.e_map_tags{z-index:1;position:relative}
+.e_map_tags li{width:auto;height:20px;z-index:1;position:absolute;text-align:center;display:block;font:12px/20px simsun, arial, sans-serif; color:#960;top:0px;cursor:pointer;left:0px; padding:0 3px;}
+.e_map_tags .m_01{top:40px;left:770px}
+.e_map_tags .m_02{top:65px;left:770px}
+.e_map_tags .m_03{top:90px;left:770px}
+.e_map_tags .m_04{top:115px;left:770px}
+.e_map_tags .m_05{top:140px;left:770px}
+.e_map_tags .m_06{top:165px;left:770px}
+.e_map_tags .m_07{top:190px;left:770px}
+.e_map_tags .m_08{top:215px;left:770px}
+.e_map_tags .m_09{top:240px;left:770px}
+.e_map_tags .m_10{top:265px;left:770px}
+.e_map_tags .m_11{top:290px;left:770px}
+.e_map_tags .m_12{top:315px;left:770px}
+.e_map_tags .m_13{top:340px;left:770px}
+.e_map_tags .m_14{top:365px;left:770px}
+.e_map_tags .m_15{top:390px;left:770px}
+.e_map_tags .m_16{top:415px;left:770px}
+.e_map_tags .m_17{top:440px;left:770px}
+.e_map_tags .m_18{top:465px;left:770px}
+.e_map_tags .m_19{top:490px;left:770px}
+.e_map_tags .m_20{top:515px;left:770px}
+.e_map_tags .m_21{top:540px;left:770px}
+
+.e_map_tags .m_22{top:40px;left:580px;}
+.e_map_tags .m_23{top:65px;left:580px;}
+.e_map_tags .m_24{top:90px;left:580px;}
+.e_map_tags .m_25{top:115px;left:580px;}
+.e_map_tags .m_26{top:140px;left:580px;}
+.e_map_tags .m_27{top:165px;left:580px;}
+.e_map_tags .m_28{top:190px;left:580px;}
+.e_map_tags .m_29{top:215px;left:580px;}
+.e_map_tags .m_30{top:240px;left:580px;}
+.e_map_tags .m_31{top:265px;left:580px;}
+.e_map_tags .m_32{top:290px;left:580px;}
+.e_map_tags .m_33{top:315px;left:580px;}
+.e_map_tags .m_34{top:340px;left:580px;}
+.e_map_tags .m_35{top:365px;left:580px;}
+.e_map_tags .m_36{top:390px;left:580px;}
+.e_map_tags .m_37{top:415px;left:580px;}
+.e_map_tags .m_38{top:440px;left:580px;}
+.e_map_tags .m_39{top:465px;left:580px;}
+.e_map_tags .m_40{top:490px;left:580px;}
+.e_map_tags .m_41{top:515px;left:580px;}
+.e_map_tags .m_42{top:540px;left:580px;}
+.e_map_tags li a{ color:#960; background-color:#f3d8a5; text-decoration:none; padding:2px;}
+.e_map_tags li a:hover{background-position:0px -38px; background-color:#C30; color:#FC6;}
+.e_map_tags li.hover{background-position:0px -38px ;background-color:#C30; color:#FC6;}
+
+.e_map_info{z-index:2;position:relative}
+.e_map_info .m_content{z-index:10; color:#FFF;border:#c00 2px solid;position:absolute;padding:10px;background-color: #960;
+filter:alpha(opacity=90); /* IE 透明度80% */ -moz-opacity:0.9; /* Moz + FF 透明度80%*/ opacity: 0.9; /* 支持CSS3的浏览器（FF 1.5也支持）透明度80%*/width:300px;display:block;top:0px;left:0px}
+.e_map_info .m_content img{	float:right;position:absolute;left: 185px;top:55px; width:120px; height:90px;}
+.e_map_info .m_content a{ color:#FC0;}
+.e_map_info .hide{display:none;}
+.e_map_info .m_content i-{z-index:1;position:absolute;width:15px;bottom:-15px;display:block;background:url(images/map_idx.png) no-repeat 0px 0px;height:15px;overflow:hidden;right:45px;_right:50px}
+.e_map_info .m_content h4{font:18px/32px "microsoft yahei", simsun, arial, sans-serif;height:40px;}
+.e_map_info .m_content p{font:normal 12px/20px "microsoft yahei",simsun, arial, sans-serif; padding-right:135px}
+.e_map_info .m_01{
+	top:160px;
+	left:70px
+}
+.e_map_info .m_02{
+	top:15px;
+	left:60px
+}
+.e_map_info .m_03{
+	top:315px;
+	left:0px
+}
+.e_map_info .m_04{
+	top:205px;
+	left:0px
+}
+.e_map_info .m_05{
+	top:250px;
+	left:0px
+}
+.e_map_info .m_06{
+	top:25px;
+	left:0px
+}
+.e_map_info .m_07{
+	top:45px;
+	left:0px
+}
+.e_map_info .m_08{
+	top:-5px;
+	left:0px
+}
+.e_map_info .m_09{
+	top:405px;
+	left:0px
+}
+.e_map_info .m_10{
+	top:375px;
+	left:0px
+}
+.e_map_info .m_11{
+	top:450px;
+	left:0px
+}
+.e_map_info .m_12{
+	top:290px;
+	left:230px
+}
+.e_map_info .m_13{
+	top:280px;
+	left:245px
+}
+.e_map_info .m_14{
+	top:270px;
+	left:230px
+}
+.e_map_info .m_15{
+	top:245px;
+	left:220px
+}
+.e_map_info .m_16{
+	top:250px;
+	left:125px
+}
+.e_map_info .m_17{
+	top:265px;
+	left:95px
+}
+.e_map_info .m_18{
+	top:140px;
+	left:0px
+}
+.e_map_info .m_19{
+	top:100px;
+	left:0px
+}
+.e_map_info .m_20{
+	top:120px;
+	left:0px
+}
+.e_map_info .m_21{
+	top:140px;
+	left:35px
+}
+.e_map_info .m_22{
+	top:115px;
+	left:35px
+}
+.e_map_info .m_23{
+	top:150px;
+	left:40px
+}
+.e_map_info .m_24{
+	top:165px;
+	left:0px
+}
+.e_map_info .m_25{
+	top:125px;
+	left:0px
+}
+.e_map_info .m_26{
+	top:165px;
+	left:0px
+}
+.e_map_info .m_27{
+	top:160px;
+	left:0px
+}
+.e_map_info .m_28{
+	top:160px;
+	left:0px
+}
+.e_map_info .m_29{
+	top:140px;
+	left:0px
+}
+.e_map_info .m_30{
+	top:150px;
+	left:0px
+}
+.e_map_info .m_31{
+	top:165px;
+	left:0px
+}
+.e_map_info .m_32{
+	top:190px;
+	left:0px
+}
+.e_map_info .m_33{
+	top:170px;
+	left:0px
+}
+.e_map_info .m_34{
+	top:160px;
+	left:0px
+}
+.e_map_info .m_35{
+	top:180px;
+	left:0px
+}
+.e_map_info .m_36{
+	top:205px;
+	left:35px
+}
+.e_map_info .m_37{
+	top:215px;
+	left:30px
+}
+.e_map_info .m_38{
+	top:210px;
+	left:15px
+}
+.e_map_info .m_39{
+	top:160px;
+	left:0px
+}
+.e_map_info .m_40{
+	top:152px;
+	left:10px
+}
+.e_map_info .m_41{
+	top:160px;
+	left:0px
+}
+.e_map_info .m_42{
+	top:190px;
+	left:5px
+}
+-->
+</style></head>
+
+<body>
+<script src="http://www.hf365.com/js/zt/jquery-1.5.2.min.js"></script>
+
+<div class="b_map">
+	<ul id="m_btn" class="e_map_tags">
+	  <li class="m_01" data-type="01"><a href="http://news.hf365.com/system/2013/12/02/013594700.shtml">渡江战役总前委旧址纪念馆</a></li>
+	  <li class="m_02" data-type="02"><a href="http://news.hf365.com/system/2013/12/02/013594688.shtml">新四军第四支队东进抗日纪念馆</a></li>
+	  <li class="m_03" data-type="03"><a href="http://news.hf365.com/system/2013/12/04/013599334.shtml">肥西县三河镇</a></li>
+	  <li class="m_04" data-type="04"><a href="http://news.hf365.com/system/2013/12/04/013599374.shtml">刘铭传旧居</a></li>
+	  <li class="m_05" data-type="05"><a href="http://news.hf365.com/system/2013/12/04/013599831.shtml">小井庄纪念馆</a></li>
+	  <li class="m_06" data-type="06"><a href="http://news.hf365.com/system/2013/12/04/013600581.shtml">双河集农民暴动纪念馆</a></li>
+	  <li class="m_07" data-type="07"><a href="http://news.hf365.com/system/2013/12/04/013600585.shtml">吴山庙武装起义纪念馆</a></li>
+	  <li class="m_08" data-type="08"><a href="http://news.hf365.com/system/2013/12/04/013600608.shtml">杨庙镇刘云峰烈士纪念馆</a></li>
+	  <li class="m_09" data-type="09"><a href="http://news.hf365.com/system/2013/12/04/013600624.shtml">新四军江北指挥部</a></li>
+	  <li class="m_10" data-type="10"><a href="http://news.hf365.com/system/2013/12/04/013600627.shtml">孙立人故居</a></li>
+	  <li class="m_11" data-type="11"><a href="http://news.hf365.com/system/2013/12/04/013600650.shtml">周瑜墓园陈列馆</a></li>
+	  <li class="m_12" data-type="12"><a href="http://news.hf365.com/system/2013/12/04/013600676.shtml">巢湖市南山烈士陵园</a></li>
+	  <li class="m_13" data-type="13"><a href="http://news.hf365.com/system/2013/12/04/013600695.shtml">巢湖市博物馆</a></li>
+	  <li class="m_14" data-type="14"><a href="http://news.hf365.com/system/2013/12/04/013600697.shtml">巢湖市档案馆</a></li>
+	  <li class="m_15" data-type="15"><a href="http://news.hf365.com/system/2013/12/04/013600697.shtml">冯玉祥将军纪念馆</a></li>
+	  <li class="m_16" data-type="16"><a href="http://news.hf365.com/system/2013/12/04/013600731.shtml">李克农故居</a></li>
+	  <li class="m_17" data-type="17"><a href="http://news.hf365.com/system/2013/12/04/013600745.shtml">张治中故居</a></li>
+	  <li class="m_18" data-type="18"><a href="http://news.hf365.com/system/2013/12/04/013600745.shtml">庐阳区青少年校外活动中心</a></li>
+	  <li class="m_19" data-type="19"><a href="http://news.hf365.com/system/2013/12/04/013600753.shtml">庐阳区素质教育基地</a></li>
+	  <li class="m_20" data-type="20"><a href="http://news.hf365.com/system/2013/12/04/013600760.shtml">三国遗址公园</a></li>
+	  <li class="m_21" data-type="21"><a href="http://news.hf365.com/system/2013/12/04/013600763.shtml">瑶海青少年活动中心</a></li>
+
+	  <li class="m_22" data-type="22"><a href="http://news.hf365.com/system/2013/12/04/013600770.shtml">瑶海区素质教育活动中心</a></li>
+	  <li class="m_23" data-type="23"><a href="http://news.hf365.com/system/2013/12/06/013605895.shtml">瑶海区琥珀名城学校乡村少年宫</a></li>
+	  <li class="m_24" data-type="24"><a href="http://news.hf365.com/system/2013/12/04/013600781.shtml">安徽名人馆</a></li>
+	  <li class="m_25" data-type="25"><a href="http://news.hf365.com/system/2013/12/04/013600786.shtml">合肥市科技馆</a></li>
+	  <li class="m_26" data-type="26"><a href="http://news.hf365.com/system/2013/12/04/013600789.shtml">合肥大蜀山文化陵园</a></li>
+	  <li class="m_27" data-type="27"><a href="http://news.hf365.com/system/2013/12/04/013600794.shtml">合肥高新创业园</a></li>
+	  <li class="m_28" data-type="28"><a href="http://news.hf365.com/system/2013/12/04/013600804.shtml">合肥工业大学工程认知博物馆</a></li>
+	  <li class="m_29" data-type="29"><a href="http://news.hf365.com/system/2013/12/04/013600811.shtml">合肥物质科学研究院现代科技馆</a></li>
+	  <li class="m_30" data-type="30"><a href="http://news.hf365.com/system/2013/12/04/013600814.shtml">合肥子木园博物馆</a></li>
+	  <li class="m_31" data-type="31"><a href="http://news.hf365.com/system/2013/12/04/013600821.shtml">赖少其艺术馆</a></li>
+	  <li class="m_32" data-type="32"><a href="http://news.hf365.com/system/2013/12/04/013600822.shtml">盛习友纪念馆</a></li>
+	  <li class="m_33" data-type="33"><a href="http://news.hf365.com/system/2013/12/04/013600822.shtml">市档案局</a></li>
+	  <li class="m_34" data-type="34"><a href="http://news.hf365.com/system/2013/12/04/013600853.shtml">蜀山烈士陵园</a></li>
+	  <li class="m_35" data-type="35"><a href="http://news.hf365.com/system/2013/12/04/013600873.shtml">包河区少儿活动中心</a></li>
+	  <li class="m_36" data-type="36"><a href="http://news.hf365.com/system/2013/12/04/013600875.shtml">大圩镇沈福村</a></li>
+	  <li class="m_37" data-type="37"><a href="http://news.hf365.com/system/2013/12/04/013600885.shtml">大圩镇乡村少年宫</a></li>
+	  <li class="m_38" data-type="38"><a href="http://news.hf365.com/system/2013/12/04/013600894.shtml">渡江战役纪念馆</a></li>
+	  <li class="m_39" data-type="39"><a href="http://news.hf365.com/system/2013/12/04/013600894.shtml">合肥包公园</a></li>
+	  <li class="m_40" data-type="40"><a href="http://news.hf365.com/system/2013/12/04/013600909.shtml">王小郢污水处理有限公司</a></li>
+	  <li class="m_41" data-type="41"><a href="http://news.hf365.com/system/2013/12/04/013600913.shtml">中国科学技术大学</a></li>
+	  <li class="m_42" data-type="42"><a href="http://news.hf365.com/system/2013/12/06/013606035.shtml">合肥安达电子公司</a></li>
+  </ul>
+	<div class="e_map_info">
+	  <div class="m_content m_01 hide" data-panel="01">
+			<i></i>
+		<h4>渡江战役总前委旧址纪念馆</h4>
+		  <p>1949年3、4月间，邓小平、刘伯承、陈毅、粟裕、谭震林五人组成的总前委进驻瑶岗，以邓小平为书记的总前委在瑶岗运筹帷幄，指挥了...【<a href="http://news.hf365.com/system/2013/12/02/013594700.shtml">详细</a>】</p><img src="http://img.hf365.com/0/13/68/08/13680804_869962.jpg" /></div>
+		
+	  <div class="m_content m_02 hide" data-panel="02">
+			<i></i>
+		<h4>新四军第四支队东进抗日纪念馆</h4>
+		<p>褚老圩，曾是新四军第四支队司令部、江北游击纵队司令部、新四军江北指挥部、合肥中心县委的驻地。抗战时期，这里是我党我军...【<a href="http://news.hf365.com/system/2013/12/02/013594688.shtml">详细</a>】</p><img src="http://img.hf365.com/0/13/68/08/13680802_086358.jpg" /></div>
+		
+	  <div class="m_content m_03 hide" data-panel="03">
+			<i></i>
+		<h4>肥西县三河镇</h4>
+		<p>三河拥有中国历史文化名镇、中国美食文化古镇、全国特色旅游名镇、全国文明镇等14个国家级荣誉称号，素有“千年古镇、生态水乡...【<a href="http://news.hf365.com/system/2013/12/04/013599334.shtml">详细</a>】</p><img src="http://img.hf365.com/0/13/68/64/13686473_489683.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_04 hide" data-panel="04">
+			<i></i>
+		<h4>刘铭传旧居</h4>
+		<p>1836年9月7日(清道光十六年七月二十七日)凌晨，刘铭传生于合肥西乡井王四房部（今肥西县南分路乡建设村四房村民组）...【<a href="http://news.hf365.com/system/2013/12/04/013599374.shtml">详细</a>】</p><img src="http://img.hf365.com/0/13/68/65/13686525_780427.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_05 hide" data-panel="05">
+			<i></i>
+		<h4>小井庄中国农村包产到户纪念馆</h4>
+		<p>具有徽派风格的“中国农村包产到户纪念馆”，是中国农村首个包产到户纪念馆，设计充分体现“以人为本”理念，根据功能分为旅游...【<a href="http://news.hf365.com/system/2013/12/04/013599831.shtml">详细</a>】</p><img src="http://img.hf365.com/0/13/68/72/13687278_953308.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_06 hide" data-panel="06">
+			<i></i>
+		<h4>双河集农民暴动纪念馆</h4>
+		<p>2004年春季兴建双河集农民暴动纪念馆，主展馆正中悬挂着崔筱斋烈士的大幅遗像，曾任寿县县委书记曹广化的亲笔题词“闪光的足迹”...【<a href="http://news.hf365.com/system/2013/12/04/013600581.shtml">详细</a>】</p><img src="http://img.hf365.com/0/13/69/19/13691901_159692.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_07 hide" data-panel="07">
+			<i></i>
+		<h4>吴山庙武装起义纪念馆</h4>
+		<p>1996年11月，市委、市政府在吴山镇隆重集会，纪念吴山庙武装起义七十周年。为缅怀革命先烈，教育后人，决定建立吴山庙武装起义...【<a href="http://news.hf365.com/system/2013/12/04/013600585.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/15/13691571_288969.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_08 hide" data-panel="08">
+			<i></i>
+		<h4>杨庙镇刘云峰烈士纪念馆</h4>
+		<p>杨庙镇革命事迹陈列室，又名刘云峰烈士纪念馆。纪念馆于2010年落成，汇集了杨庙镇历史上仁人志士的主要事迹。刘云峰是代表之一...【<a href="http://news.hf365.com/system/2013/12/04/013600608.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/15/13691556_403018.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_09 hide" data-panel="09">
+			<i></i>
+		<h4>新四军江北指挥部纪念馆</h4>
+		<p>纪念馆内陈列了200多幅珍贵的历史照片，图表和文献资料，系统的介绍了新四军江北指挥部的组成，发展，壮大的过程。通过陈列大量...【<a href="http://news.hf365.com/system/2013/12/04/013600624.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/18/13691836_726398.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_10 hide" data-panel="10">
+			<i></i>
+		<h4>孙立人故居</h4>
+		<p>在风景秀丽、人杰地灵的金牛山南麓，坐落着一幢古朴优雅的四合院。这便是著名的抗日将领孙立人故居所在地。一个多世纪之前，清...【<a href="http://news.hf365.com/system/2013/12/04/013600627.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/15/13691560_956049.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_11 hide" data-panel="11">
+			<i></i>
+		<h4>周瑜墓园陈列馆</h4>
+		<p>周瑜墓园陈列馆位于庐江县庐城镇，是安徽省重点文物保护单位。周瑜墓园建设，自1993年以来，历时16年，投资1000多万元...【<a href="http://news.hf365.com/system/2013/12/04/013600650.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/15/13691520_856096.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_12 hide" data-panel="12">
+			<i></i>
+		<h4>巢湖市南山烈士陵园</h4>
+		<p>巢湖市南山烈士陵园成立于1994年，总占地面积260亩。是巢湖市爱国主义、国防教育的重要基地之一。陵园自成立以来...【<a href="http://news.hf365.com/system/2013/12/04/013600676.shtml">详细</a>】</p><img src="http://img.hf365.com/0/13/69/17/13691760_209721.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_13 hide" data-panel="13">
+			<i></i>
+		<h4>巢湖市博物馆</h4>
+		<p>巢湖市博物馆于1997年开始动工建设，2000年完工并正式对外开放。博物馆占地75亩，建筑面积3000平方米，其中基本...【<a href="http://news.hf365.com/system/2013/12/04/013600695.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/14/13691480_185876.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_14 hide" data-panel="14">
+			<i></i>
+		<h4>巢湖市档案馆</h4>
+		<p>巢湖市档案馆《爱国主义教育基地》位于巢湖卧牛山南侧、东风路西苑广场北，原巢湖市居巢区委院内。始建于2003年...【<a href="http://news.hf365.com/system/2013/12/04/013600697.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/12/13691254_007707.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_15 hide" data-panel="15">
+			<i></i>
+		<h4>冯玉祥将军纪念馆</h4>
+		<p>我国近代史上杰出的爱国将领、民主斗士、中国共产党的真挚朋友，他生活简朴，治军严明，疾恶如仇，被誉为“布衣将军”...【<a href="http://news.hf365.com/system/2013/12/04/013600697.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/17/13691724_942886.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_16 hide" data-panel="16">
+			<i></i>
+		<h4>李克农将军纪念馆</h4>
+        <p>李克农将军，是我党我军隐蔽战线的卓越领导人和组织者。他在“五四”运动时期就参加进步活动，1926年加入中国共产党...【<a href="http://news.hf365.com/system/2013/12/04/013600731.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/17/13691723_789750.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_17 hide" data-panel="17">
+			<i></i>
+		<h4>张治中将军纪念馆</h4>
+        <p>张治中，1916年保定军官学校毕业。北伐前任黄埔军校入伍生总队总队长、军官团团长。1926年参加北伐。“八一三”事变...【<a href="http://news.hf365.com/system/2013/12/04/013600745.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/17/13691710_458914.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_18 hide" data-panel="18">
+			<i></i>
+		<h4>庐阳区青少年校外活动中心</h4>
+        <p>庐阳区青少年校外活动中心，位于合肥市金寨路406号，是隶属于庐阳区教体局的正科级事业单位，是一所以开展青少年科技...【<a href="http://news.hf365.com/system/2013/12/04/013600745.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/14/13691462_615162.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_19 hide" data-panel="19">
+			<i></i>
+		<h4>庐阳区素质教育基地</h4>
+        <p>基地始终坚持把“励志、创新、合作、实践”作为办学宗旨。一方面，抓师资队伍建设，努力培养一支师德高尚、业务精良...【<a href="http://news.hf365.com/system/2013/12/04/013600753.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/16/13691693_727906.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_20 hide" data-panel="20">
+			<i></i>
+		<h4>合肥三国遗址公园</h4>
+        <p>三国时期，合肥为魏吴两国长期争夺的主战场。据《三国志》记载：魏国征东将军满宠两次上疏魏明帝曹睿，建议在合肥老城...【<a href="http://news.hf365.com/system/2013/12/04/013600760.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/16/13691689_994713.jpg" />	
+	  </div>
+		
+	  <div class="m_content m_21 hide" data-panel="21">
+			<i></i>
+		<h4>瑶海青少年活动中心</h4>
+        <p>瑶海青少年活动中心隶属瑶海区教体局，是自收自支的事业性单位，创办于1995年，是合肥地区最早由教育部门主办的现代化...【<a href="http://news.hf365.com/system/2013/12/04/013600763.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/16/13691659_254900.jpg" />	
+	  </div>
+		
+<div class="m_content m_22 hide" data-panel="22">
+			<i></i>
+	  <h4>瑶海区素质教育活动中心</h4>
+			<p>合肥市爱国者教育基地——瑶海区素质教育活动中心位于美丽的少荃湖畔，有教学楼两幢，中心绿树成荫，鸟语花香，环境优美...【<a href="http://news.hf365.com/system/2013/12/04/013600770.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/16/13691603_286836.jpg" />
+	  </div>
+		
+<div class="m_content m_23 hide" data-panel="23">
+			<i></i>
+	  <h4>瑶海区琥珀名城学校乡村少年宫</h4>
+			<p>少年宫坐落于瑶海区东部，琥珀名城的东北方向，具体地址合肥长江东路与石塘路交口北200米。乡村少年宫占地700多平方米，建...【<a href="http://news.hf365.com/system/2013/12/06/013605895.shtml">详细</a>】</p><img src="http://img.hf365.com/0/13/69/37/13693784_855036.jpg" />
+	  </div>
+
+<div class="m_content m_24 hide" data-panel="24">
+			<i></i>
+	  <h4>安徽名人馆</h4>
+			<p>安徽名人馆是安徽省政府、合肥市政府迎接国庆50周年重点建设工程，位于合肥市蜀山风景区北部，北临长江西路，西至合肥市委...【<a href="http://news.hf365.com/system/2013/12/04/013600781.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/15/13691581_278345.jpg" />
+	  </div>
+
+<div class="m_content m_25 hide" data-panel="25">
+			<i></i>
+	  <h4>合肥市科技馆</h4>
+			<p>合肥市科技馆总占地面积16710平方米，建筑面积12000平方米，其中常设展厅建筑面积约5800平方米，临时展厅面积约1000平方米...【<a href="http://news.hf365.com/system/2013/12/04/013600786.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/13/13691395_355979.jpg" />
+	  </div>
+
+<div class="m_content m_26 hide" data-panel="26">
+			<i></i>
+	  <h4>合肥大蜀山文化陵园</h4>
+			<p>大蜀山文化陵园坐落在风景秀丽，林木葱郁的合肥西郊大蜀山西南麓，系国家AAA级旅游景区。前身为大蜀山革命公墓，始建于公元...【<a href="http://news.hf365.com/system/2013/12/04/013600789.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/13/13691380_337256.jpg" />
+	  </div>
+
+<div class="m_content m_27 hide" data-panel="27">
+			<i></i>
+	  <h4>合肥高新创业园</h4>
+			<p>合肥高新创业园是合肥高新区管委会所属的各科技企业孵化器和加速器的总称，主要包括合肥创新产业园、合肥软件园、合肥留学人...【<a href="http://news.hf365.com/system/2013/12/04/013600794.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/13/13691326_246360.jpg" />
+	  </div>
+
+<div class="m_content m_28 hide" data-panel="28">
+			<i></i>
+	  <h4>合肥工业大学工程认知博物馆</h4>
+			<p>为加强爱国主义教育，支撑学校的“工程基础厚、工作作风实、创业能力强”的人才培养特色，合肥工业大学于2008年12月4日开始筹建...【<a href="http://news.hf365.com/system/2013/12/04/013600804.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/13/13691320_034255.jpg" />
+	  </div>
+
+<div class="m_content m_29 hide" data-panel="29">
+			<i></i>
+	  <h4>合肥物质科学研究院现代科技馆</h4>
+			<p>合肥现代科技馆是中科院合肥物质研究院、安徽省科协及合肥市政府共同建设的科普教育基地。合肥现代科技馆作为合肥研究院对外进行...【<a href="http://news.hf365.com/system/2013/12/04/013600811.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/12/13691212_913411.jpg" />
+	  </div>
+
+<div class="m_content m_30 hide" data-panel="30">
+			<i></i>
+	  <h4>合肥子木园博物馆</h4>
+			<p>合肥子木园博物馆筹建于2006年，2009年3月由安徽省文物局批准、国家文物局备案、合肥市民政局登记注册的公益性、非营利性民办...【<a href="http://news.hf365.com/system/2013/12/04/013600814.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/14/13691460_972888.jpg" />
+	  </div>
+
+<div class="m_content m_31 hide" data-panel="31">
+			<i></i>
+	  <h4>赖少其艺术馆</h4>
+			<p>合肥市委、市政府为建设文化强市、提高文化品位、增强城市精神文明，展示和弘扬赖少其的高尚品质和杰出成就，投资四千万元兴建...【<a href="http://news.hf365.com/system/2013/12/04/013600821.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/05/13690573_669334.jpg" />
+	  </div>
+
+<div class="m_content m_32 hide" data-panel="32">
+			<i></i>
+	  <h4>盛习友纪念馆</h4>
+			<p>合肥经开区作为合肥市经济发展主引擎，可以说是厂房遍布、高楼林立，然而在区主干道繁华大道的边上却有这么一个地方—芳草萋萋...【<a href="http://news.hf365.com/system/2013/12/04/013600822.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/12/13691221_999984.jpg" />
+	  </div>
+
+<div class="m_content m_33 hide" data-panel="33">
+			<i></i>
+	  <h4>合肥市档案馆爱国主义教育基地</h4>
+			<p>自2007年12月市档案馆被市委、市政府正式命名为爱国主义教育基地后，市档案馆严格按照《国家档案馆爱国主义教育基地工作规范》...【<a href="http://news.hf365.com/system/2013/12/04/013600822.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/12/13691210_009995.jpg" />
+	  </div>
+
+<div class="m_content m_34 hide" data-panel="34">
+			<i></i>
+	  <h4>蜀山烈士陵园</h4>
+			<p>合肥蜀山烈士陵园坐落在合肥市大蜀山风景名胜区，坐西朝东，正对城市主干道黄山路，现状占地11.2万平方米，绿化面积68000㎡...【<a href="http://news.hf365.com/system/2013/12/04/013600853.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/12/13691205_956041.jpg" />
+	  </div>
+
+<div class="m_content m_35 hide" data-panel="35">
+			<i></i>
+	  <h4>包河区少儿活动中心</h4>
+			<p>合肥市包河区少儿活动中心(以下简称“中心”)位于合肥市太湖路，是由中央彩票公益金基金会和包河区政府共同投资兴建的青少年...【<a href="http://news.hf365.com/system/2013/12/04/013600873.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/08/13690838_964107.jpg" />
+	  </div>
+
+<div class="m_content m_36 hide" data-panel="36">
+			<i></i>
+	  <h4>沈福村爱国主义教育基地</h4>
+			<p>沈福村爱国主义教育基地座落在环境优美的沈福村群众文化活动中心，建筑面积约60平方米，分为一个展厅，六个版面，展览以图文...【<a href="http://news.hf365.com/system/2013/12/04/013600875.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/14/13691414_211899.jpg" />
+	  </div>
+
+<div class="m_content m_37 hide" data-panel="37">
+			<i></i>
+	  <h4>大圩镇乡村少年宫</h4>
+			<p>乡村少年宫自开办以来，深受社会、家长好评。乡村少年宫开办的丰富多彩的活动，让未成年人思想道德素质获得大幅提升。...【<a href="http://news.hf365.com/system/2013/12/04/013600885.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/06/13690679_080748.jpg" />
+	  </div>
+
+<div class="m_content m_38 hide" data-panel="38">
+			<i></i>
+	  <h4>渡江战役纪念馆</h4>
+			<p>渡江战役纪念馆位于滨湖新区最南端，面向八百平方公里的浩瀚巢湖，规划用地22万平方米。2012年11月28日正式对外免费开放。...【<a href="http://news.hf365.com/system/2013/12/04/013600894.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/08/13690815_738389.jpg" />
+	  </div>
+
+<div class="m_content m_39 hide" data-panel="39">
+			<i></i>
+	  <h4>合肥包公园</h4>
+			<p>包公园是为纪念北宋著名清官包拯而建，合肥首批国家4A级旅游景区，全国廉政教育基地，安徽省重点文物保护单位，安徽省...【<a href="http://news.hf365.com/system/2013/12/04/013600894.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/08/13690814_168513.jpg" />
+	  </div>
+
+<div class="m_content m_40 hide" data-panel="40">
+			<i></i>
+	  <h4>合肥王小郢污水处理有限公司</h4>
+			<p>合肥王小郢污水处理有限公司成立于2004年10月，是由德国柏林水务和东华股份共同组建的的中外合作企业，于2004年12月21日...【<a href="http://news.hf365.com/system/2013/12/04/013600909.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/05/13690568_902308.jpg" />
+	  </div>
+
+<div class="m_content m_41 hide" data-panel="41">
+			<i></i>
+	  <h4>中国科学技术大学</h4>
+			<p>中国科学技术大学是中国科学院所属的一所以前沿科学和高新技术为主、兼有管理和人文学科的综合性全国重点大学。其创办被称...【<a href="http://news.hf365.com/system/2013/12/04/013600913.shtml">详细</a>】</p><img src="http://img.hf365.com/120/13/69/04/13690417_970824.jpg" />
+	  </div>
+
+<div class="m_content m_42 hide" data-panel="42">
+			<i></i>
+	  <h4>合肥安达电子公司</h4>
+			<p>合肥安达电子有限责任公司成立于1992年，属国家高新技术企业和安徽省创新型企业，为中国展览馆协会展馆工程企业一级资质单位...【<a href="http://news.hf365.com/system/2013/12/06/013606035.shtml">详细</a>】</p><img src="http://img.hf365.com/0/13/69/40/13694065_657666.jpg" />
+	  </div>
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	var timer = {};
+
+	$('#m_btn').delegate('li', 'mouseenter', function(){
+		var self = $(this);
+		var tp = self.attr('data-type');
+		clearTimeout(timer[tp]);
+		timer[tp] = setTimeout(function(){
+			self.addClass('hover');
+			$('div[data-panel=' + tp + ']').removeClass('hide');
+		},100);
+	}).delegate('li', 'mouseleave', function(){
+		var self = $(this);
+		var tp = self.attr('data-type');
+		clearTimeout(timer[tp])
+		timer[tp] = setTimeout(function(){
+			self.removeClass('hover');
+			$('div[data-panel=' + tp + ']').addClass('hide');
+		},500);
+	});
+	
+	$(document.body).delegate('div.m_content', 'mouseenter', function(){
+		clearTimeout(timer[$(this).attr('data-panel')]);
+	}).delegate('div.m_content', 'mouseleave', function(){
+		$(this).addClass('hide');
+		$('li[data-type='+ $(this).attr('data-panel') +']').removeClass('hover');
+	});
+	
+});
+</script>
+
+
+</body>
+</html>
+<!--<page cms="enorth webpublisher"  version="5.0.0 /2011101201" server_name="hf365make151back" parse_date="2013-12-06 17:09:10" cost="32" parse_result="0" input_mode="manual"></page>-->
