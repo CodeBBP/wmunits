@@ -52,12 +52,7 @@ public class LoginController {
 		log.info("Login user=====" + user.getUsername());
 		Subject subject = SecurityUtils.getSubject();
 		UsernamePasswordToken token = new UsernamePasswordToken(user.getUsername(), user.getPassword());
-//		String remember = WebUtils.getCleanParam(request, "remember");
-//		log.info("remember=" + remember);
 		try {
-//		    	if(remember != null && remember.equalsIgnoreCase("on")) {
-//		    	    token.setRememberMe(true);
-//		    	}
 			subject.login(token);
 			return "redirect:/index";
 		} catch(Exception re) {
@@ -89,7 +84,7 @@ public class LoginController {
 			model.addAttribute("error", "验证码不正确，请重新输入");
 			return "security/adminlogin";
 		}
-		log.info("Login user=====" + user);
+		log.info("Login user =>" + user);
 		Subject subject = SecurityUtils.getSubject();
 		UsernamePasswordToken token = new UsernamePasswordToken(user.getUsername(), user.getPassword());
 		String remember = WebUtils.getCleanParam(request, "remember");
@@ -128,31 +123,7 @@ public class LoginController {
 		String verifyCode = ValidateUtils.generateTextCode(ValidateUtils.TYPE_NUM_ONLY, 4, null);
 		session.setAttribute("validateCode", verifyCode);
 		session.setAttribute("usermobile", mobile);
-//		try {
-//			String msg = "&smstext=" + java.net.URLEncoder.encode("您好，您的验证码为：","UTF-8")+verifyCode; //短信内容
-//			String path = "http://61.191.44.191:9090/ahsmk/httpinterface/ent/sendsms.jsp?srcmobile=ceshi0564&password=13CB45DD02DA3142EE6C466ABDE5A558";
-//			path +="&objmobile="+mobile;	//目标号
-//			SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");
-//			String smsid = "&smsid="+mobile+sf.format(DateUtils.getSystemTime()); //消息编号
-//			path += smsid;
-//			path += msg;
-//			System.out.println("******"+path);
-//			HttpURLConnection conn = (HttpURLConnection)new URL(path).openConnection();
-//			conn.setConnectTimeout(8000);
-//			conn.setReadTimeout(8000);
-//			conn.setRequestMethod("GET");
-//			conn.setDoInput(true);
-//			conn.connect();
-//			BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-//			
-//			if((lines = reader.readLine()) != null) { 
-				commonResultObject.setRetCode(verifyCode);
-//			}
-//			reader.close(); 
-//			conn.disconnect(); 
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
+		commonResultObject.setRetCode(verifyCode);
 		return commonResultObject;
 	}
 }
